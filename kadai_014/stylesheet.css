@@ -1,12 +1,19 @@
-body {
+html {
     font-size: 20px ;
+   }
+
+   .decolation {
+    font-weight: bold;
+}
+
+body {
     font-family: "Arial", "Meiryo", sans-serif ;
     text-align: center;
     }
         
   
     h1 {
-    font-size: 2em ;
+    font-size: 2rem ;
     text-shadow:  2px 2px 2px black;
     border-bottom: solid 3px rgb(115, 115, 114)
     line-height: 4.5;
