@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: "Arial", "Meiryo", sans-serif ;
+    font-family: "Arial", "Meiryo", sans-serif;
     text-align: center;
     }
         
@@ -15,12 +15,12 @@ body {
     h1 {
     font-size: 2rem ;
     text-shadow:  2px 2px 2px black;
-    border-bottom: solid 3px rgb(115, 115, 114)
-    line-height: 4.5;
+    border-bottom: solid 3px rgb(115, 115, 114);
     letter-spacing: 1.2em;
     border-bottom: solid 3px black;
-    font-family: 'Josefin Sans';
-    }
+    font-family: 'Josefin Sans', sans-serif;
+}
+
     
     #Skyblue {
     color: Skyblue;
