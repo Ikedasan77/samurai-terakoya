@@ -1,0 +1,14 @@
+/* 18章の課題 */
+
+.top {
++   width: 300px;
++   background-color: yellow;    
++ }
++ .middle {
++   width: 150px;
++   background-color: orange;       
++ }
+.bottom {
+    +   width: 150px;
+    +   background-color: orange;       
+    + }
