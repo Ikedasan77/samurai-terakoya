@@ -1,53 +1,31 @@
 /* 18章の課題 */
 
- #top{
-      width: 800px;
-      height: 50%
-      color: #dcc9f4;
-      maargin: 20px auto;
-      text-aline center;
-      background-color: #ffd9df;
+body {
+   font-family: Arial, sans-serif;
+}
 
-   .top-child {         width: 800px;
-         width: 20%
-         display: inline-block;
-         text-align: center;
-         background-color: #ffd9df
-    }
+#top {
+   background-color: #ffcccb; /* 薄い赤色の背景 */
+   padding: 10px;
+}
 
-    #middle {
-      width: 200px;
-      height: 100%
-      color: #dcc9f4;
-      marginl 20px;
-      background-color: #ffd9df;
-      position: relative;   
-    }
+.top-child {
+   margin: 5px 0;
+}
 
-    #middle-child001 {
-      width: 200px;
-      height: 200%
-      position: absolute;
-      top: 100px;
-      left: 100px;
-      background-color: #87ceeb;   
-    } 
-    #middle-child002 {
-      width: 200px;
-      height: 200%
-      position: absolute;
-      top: 300px;
-      left: 300px;
-      background-color: #87ceeb;   
-    }
-    #middle-child003 {
-      width: 200px;
-      height: 200%
-      position: absolute;
-      top: 500px;
-      left: 500px;
-      background-color: #87ceeb;   
-    }  
+#middle {
+   display: flex;
+   justify-content: space-between;
+   background-color: #e0e0e0; /* 灰色の背景 */
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.middle-child01, .middle-child02, .middle-child03 {
+   background-color: #add8e6; /* 薄い青色の背景 */
+   width: 30%;
+   height: 100px;
+}
 
     #bottom {
       width: 800px;
