@@ -1,14 +1,32 @@
-/* 18章の課題 */
+html {
+    font-size: 20px ;
+   }
 
-.top {
-+   width: 300px;
-+   background-color: yellow;    
-+ }
-+ .middle {
-+   width: 150px;
-+   background-color: orange;       
-+ }
-.bottom {
-    +   width: 150px;
-    +   background-color: orange;       
-    + }
+   .decolation {
+    font-weight: bold;
+}
+
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+    }
+        
+  
+    h1 {
+    font-size: 2rem ;
+    text-shadow:  2px 2px 2px black;
+    border-bottom: solid 3px rgb(115, 115, 114);
+    letter-spacing: 1.2em;
+    border-bottom: solid 3px black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+    
+    #Skyblue {
+    color: Skyblue;
+    }
+    
+    #rgb {
+    color: rgb(255, 192, 203);
+    }
+    
