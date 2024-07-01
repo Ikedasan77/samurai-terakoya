@@ -7,23 +7,15 @@ body {
  #top {
     display: inline-block;
     background-color: #dcc9f4; /* 薄い紫の背景 */
-    
     text-align: center;
-    
     width: 800px;
-    
-    
     margin: 20px auto;
-
-    
  }
  
  .top-child {
-    margin: 5px 0;
- 
+    margin: 5px 0; 
     height: 20%;
-    background-color: #ffd9df; /* 薄い赤色の背景 */
-    
+    background-color: #ffd9df; /* 薄い赤色の背景 */    
     padding: 10px;
     display: inline-block;
  }
