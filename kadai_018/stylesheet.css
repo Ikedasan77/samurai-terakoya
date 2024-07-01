@@ -61,39 +61,32 @@ body {
    width: 800px;
    height: 300px;
    margin 0 auto;
-   background-color: #87ceeb;    
+   background-color: #87ceeb; 
+   text-align: center;
+   margin: 20px auto; 
+   position: relative;  
 }
 
 
 .bottom-child001, .bottom-child002, .bottom-child003 {
    background-color: #e5dcf0;
-   width: 400px; /* 各ボックスの幅を設定 */
+   width: 200px; /* 各ボックスの幅を設定 */
    height: 100px; /* 各ボックスの高さを設定 */
    display: flex;
    justify-content: center;  /* 子要素を水平方向に中央に配置 */
    align-items: center;  /* 子要素を垂直方向に中央に配置 */
 }
 
-
-
-
-
 #bottom-child001 {
       
    } 
 
 #bottom-child002 {
-    
    position: relative;
-   top: 500px;
    left: 200px;
-   margin-left: 200px;
 }
 
 #bottom-child003 {
-     
    position: relative;
-   top: 200px;
-   left: 400px;
-   margin-left: 400px;
-}  
+   left: 200px;
+}    
