@@ -62,9 +62,9 @@ body {
    height: 300px;
    margin 0 auto;
    background-color: #87ceeb; 
-   text-align: center;
-   margin: 0 auto; 
-   position: relative;  
+   display: flex; /* フレックスボックスの設定 */
+    justify-content: space-between; /* 子要素を均等に配置 */
+    align-items: middle; /* 子要素を縦方向にセンター揃え */
 }
 
 
@@ -72,10 +72,8 @@ body {
    background-color: #e5dcf0;
    width: 400px; /* 各ボックスの幅を設定 */
    height: 100px; /* 各ボックスの高さを設定 */
-   display: flex;
-   justify-content: center;  /* 子要素を水平方向に中央に配置 */
-   align-items: center;  /* 子要素を垂直方向に中央に配置 */
-   position: absolute;
+   
+   
 }
 
 #bottom-child001 {
@@ -91,5 +89,6 @@ body {
 
 #bottom-child003 {
    left 400px;
-   top: 100px;
+   top: 0px;
+   margin: 0;
 }    
