@@ -60,35 +60,16 @@ body {
 #bottom {
    width: 800px;
    height: 300px;
-   margin 0 auto;
-   background-color: #87ceeb; 
-   display: flex; /* フレックスボックスの設定 */
-    justify-content: space-between; /* 子要素を均等に配置 */
-    align-items: middle; /* 子要素を縦方向にセンター揃え */
+   margin: 0 auto;
+   background-color: #87ceeb;
+   display: flex;
+   justify-content: space-between;  
+   align-items: center;  
 }
-
 
 .bottom-child001, .bottom-child002, .bottom-child003 {
-   background-color: #e5dcf0;
-   width: 400px; /* 各ボックスの幅を設定 */
-   height: 100px; /* 各ボックスの高さを設定 */
-   
-   
+   background-color: #e5dcf9;
+   width: 200px;  /* 幅を適切に変更 */
+   height: 100px;
 }
 
-#bottom-child001 {
-   left 0;
-   margin: 0;    
-} 
-
-#bottom-child002 {
-   left: 200px;
-   top 0;
-   margin: 0;
-}
-
-#bottom-child003 {
-   left 400px;
-   top: 0px;
-   margin: 0;
-}    
