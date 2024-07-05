@@ -60,11 +60,11 @@ body {
 #bottom {
    width: 800px;
    height: 300px;
-   margin: 0 auto;
+   margin-top: 20px;
    background-color: #87ceeb;
    display: flex;
-   justify-content: space-between;  
-   align-items: center;  
+   /* いったんはずす */
+   
 }
 
 .bottom-child001, .bottom-child002, .bottom-child003 {
@@ -72,4 +72,7 @@ body {
    width: 200px;  /* 幅を適切に変更 */
    height: 100px;
 }
-
+#bottom-child003｛
+   position: relative;
+   left:400px;
+   ｝
